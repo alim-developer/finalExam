@@ -3,7 +3,7 @@ class database{
 	private $hostname = 'localhost';
 	private $username = 'root';
 	private $password = '';
-	private $db_name = 'task';
+	private $db_name = 'exam';
 	private $connect;
 
 	public function __construct(){
