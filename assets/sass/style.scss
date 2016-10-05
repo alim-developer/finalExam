@@ -1,0 +1,62 @@
+.clearFix{
+	clear:both;
+}
+#addCompany{
+	.container{
+		.form{
+			margin: 50px auto;
+			width: 550px;
+			form{
+				label{
+					display: block;
+					margin: 0;
+					padding-top: 15px;
+					font-size: 15px;
+				}
+				input[type="text"], input[type="number"]{
+					width: 100%;
+					display: block;
+					border: 1px solid lightgray;
+					background-color: white;
+					border-radius: 2px;
+					padding: 4px 0;
+					text-indent: 15px;
+					margin: 3px 0;
+				}
+				.button{
+					padding: 10px 0;
+					a{
+						float: left;
+						border: none;
+						background-color: lightgreen;
+						padding: 4px 14px;
+						border-radius: 2px;
+						color: white;
+						cursor: pointer;
+						text-decoration: none;
+					}
+					input[name="submit"]{
+						float: right;
+						border: none;
+						background-color: lightblue;
+						padding: 4px 14px;
+						border-radius: 2px;
+						color: white;
+					}
+				}
+			}
+			.error{
+				p{
+					color: red;
+					text-align: center;
+				}
+			}
+			.success{
+				p{
+					color: lightgreen;
+					text-align: center;
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,46 @@
+.clearFix {
+  clear: both; }
+
+#addCompany .container .form {
+  margin: 50px auto;
+  width: 550px; }
+  #addCompany .container .form form label {
+    display: block;
+    margin: 0;
+    padding-top: 15px;
+    font-size: 15px; }
+  #addCompany .container .form form input[type="text"], #addCompany .container .form form input[type="number"] {
+    width: 100%;
+    display: block;
+    border: 1px solid lightgray;
+    background-color: white;
+    border-radius: 2px;
+    padding: 4px 0;
+    text-indent: 15px;
+    margin: 3px 0; }
+  #addCompany .container .form form .button {
+    padding: 10px 0; }
+    #addCompany .container .form form .button a {
+      float: left;
+      border: none;
+      background-color: lightgreen;
+      padding: 4px 14px;
+      border-radius: 2px;
+      color: white;
+      cursor: pointer;
+      text-decoration: none; }
+    #addCompany .container .form form .button input[name="submit"] {
+      float: right;
+      border: none;
+      background-color: lightblue;
+      padding: 4px 14px;
+      border-radius: 2px;
+      color: white; }
+  #addCompany .container .form .error p {
+    color: red;
+    text-align: center; }
+  #addCompany .container .form .success p {
+    color: lightgreen;
+    text-align: center; }
+
+/*# sourceMappingURL=style.css.map */
